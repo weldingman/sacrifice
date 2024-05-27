@@ -16,6 +16,7 @@ function setup() {
   
   // console.log(img);
   beat.play();
+  beat.showControls();
 }
 
 function draw() {
