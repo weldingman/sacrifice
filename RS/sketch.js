@@ -7,12 +7,16 @@ let h = 200;
 let img2;
 let cherry = true;
 
+function preload(){
+  beat = createAudio('RS.wav');
+}
+
 
 function setup() {
   createCanvas(400, 400);
   img2 = loadImage('lips2.jpg');
   img = loadImage('cherry.png');
-  beat = createAudio('RS.wav');
+  
   
   // console.log(img);
   beat.play();
